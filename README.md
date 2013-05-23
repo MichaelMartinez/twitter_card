@@ -12,11 +12,11 @@ vary wildly from implementation to implementation.
 
 See: TODO.md for a list of items I will be working on to improve this plugin
 
-### Step 1 ###
+## Step 1 ##
 
 * Go to [https://dev.twitter.com/cards](https://dev.twitter.com/cards) to see what this is all about.
 
-### Step 2 ###
+## Step 2 ##
 
 * Integrate this plugin - The meat and potatoes of it all...
 
@@ -104,14 +104,14 @@ Then add the following macro to your article macros or wherever it makes sense:
     {% endmacro %}
 ```
 
-### Step 3 ###
+## Step 3 ##
 
 * Run `make html` to generate the site.
 * Inspect the output and to be sure twitter meta data was generated successfully
 * Push the site to your host
 
 
-### Step 4 ###
+## Step 4 ##
 
 * Visit [https://dev.twitter.com/docs/cards/validation/validator](https://dev.twitter.com/docs/cards/validation/validator) to validate. You will need to supply form with a page that has the correct meta data.
 
