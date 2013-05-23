@@ -123,6 +123,8 @@ Then add the following macro to your article macros or wherever it makes sense:
 
 * Now try it out!
 
+![Alt Validator tool](/screenshots/inuse.png)
+
 
 
 
