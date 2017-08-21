@@ -11,7 +11,7 @@ __maintainer__ = "Michael Martinez"
 __email__ = "machinedesigner@gmail.com"
 __status__ = "alpha"
 
-from pelican.settings import _DEFAULT_CONFIG
+from pelican.settings import DEFAULT_CONFIG
 from pelican import signals
 
 
@@ -26,11 +26,11 @@ def twitter_card(generator):
      GRAVATAR_URL = ''
     """
 
-    _DEFAULT_CONFIG.setdefault('TWITTER_CARD_SITE', '')
-    _DEFAULT_CONFIG.setdefault('TWITTER_CARD_SITE_ID', '')
-    _DEFAULT_CONFIG.setdefault('TWITTER_CARD_CREATOR', '')
-    _DEFAULT_CONFIG.setdefault('TWITTER_CARD_CREATOR_ID', '')
-    _DEFAULT_CONFIG.setdefault('GRAVATAR_URL', '')
+    DEFAULT_CONFIG.setdefault('TWITTER_CARD_SITE', '')
+    DEFAULT_CONFIG.setdefault('TWITTER_CARD_SITE_ID', '')
+    DEFAULT_CONFIG.setdefault('TWITTER_CARD_CREATOR', '')
+    DEFAULT_CONFIG.setdefault('TWITTER_CARD_CREATOR_ID', '')
+    DEFAULT_CONFIG.setdefault('GRAVATAR_URL', '')
 
 
 def register():

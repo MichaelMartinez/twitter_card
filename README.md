@@ -32,7 +32,7 @@ In `pelicanconf.py` add:
     TWITTER_CARD_SITE_ID = ''  # The site's Twitter ID
     TWITTER_CARD_CREATOR = '@m<yourhandle>'  # Your twitter handle like @monkmartinez
     TWITTER_CARD_CREATOR_ID = ''  # The site creator's id
-    GRAVARTAR_URL = ''
+    GRAVATAR_URL = ''
 ```
 
 If you use [Jinja's includes pattern](http://jinja.pocoo.org/docs/templates/#include) Ie. `_includes\pathtohtml.html` use the following tag in your templates header area.
